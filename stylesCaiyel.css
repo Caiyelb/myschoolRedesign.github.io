@@ -1,0 +1,55 @@
+body {
+  background-color: #34F2F2;
+}
+
+h1{
+  font-family: "Bungee Shade", Times, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+}
+
+div {
+    width: 300px;
+    height:192px;
+    transition: 2s;
+    margin: 50px;
+    }
+
+    .scale-f{
+    background-color: #f3ff05;
+}
+
+
+.scale-f:hover{
+     transform: scale(1.7, .10);
+}
+header {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+button{ 
+    background-color: #555;
+
+}
